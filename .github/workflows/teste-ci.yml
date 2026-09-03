@@ -23,6 +23,6 @@ jobs:
     - name: Intalar Rependencias 
     - run: npm install
 
-      name: Executar testes
+    - name: Executar testes
       run: npm test
     
