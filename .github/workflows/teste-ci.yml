@@ -5,6 +5,9 @@ name: Teste-CI-Cypress
 on:
   push:
      branches: [ "main" ]
+
+permissions:
+  contents: write    
   
 
 jobs:
